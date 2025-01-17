@@ -79,6 +79,10 @@ int main() {
       else
         i--;
       break;
+    default:
+      cout << "use a number that is less than 10 please!" << endl;
+      i--;
+      break;
     }
     cout << dash << endl;
     cout << "| " << cell1 << " | " << cell2 << " | " << cell3 << " |" << endl;
